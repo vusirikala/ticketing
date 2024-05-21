@@ -1,0 +1,6 @@
+export const stripe = {
+    charges: {
+            //The mock function will always return an empty object {}. We mocked the create() function this way because new.ts is expecting a promise as an output
+        create: jest.fn().mockResolvedValue({})
+    }
+}
